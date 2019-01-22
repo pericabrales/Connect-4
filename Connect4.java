@@ -167,4 +167,3 @@ public class connect4 extends JApplet implements KeyListener, MouseListener
     public void keyTyped(KeyEvent e) {}
         
 }
-# Connect-4
