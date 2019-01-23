@@ -70,11 +70,11 @@ public class connect4 extends JApplet implements KeyListener, MouseListener
          if(win()){
             if(w == 1){
                 g.setColor(Color.black);
-                g.drawString("Player 1 (black) wins!", 10, 310);
+                g.drawString("Player 2 (black) wins!", 10, 310);
             }
             if(w == 2){
                 g.setColor(Color.red);
-                g.drawString("Player 2 (red) wins!", 10, 310);
+                g.drawString("Player 1 (red) wins!", 10, 310);
             }
          }
          
